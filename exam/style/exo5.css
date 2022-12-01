@@ -1,0 +1,23 @@
+ .layout-container {
+     display: grid;
+     height: 150px;
+     grid-template-columns: 200px 1fr;
+     grid-template-areas: "header header" "nav content";
+     text-align: center;
+     vertical-align: middle;
+     line-height: 90px;
+     font-weight: bold;
+}
+ .header {
+     grid-area: header;
+     background-color: orange;
+}
+ .nav {
+     grid-area: nav;
+     background-color: lightblue;
+}
+ .content {
+     grid-area: content;
+     background-color: lightyellow;
+}
+ 

@@ -1,0 +1,16 @@
+.layout-container {
+    display: flex;
+    column-gap: 20px;
+    color: black;
+    justify-content: center;
+}
+
+p:nth-of-type(2) {
+    width: 80%;
+}
+
+p {
+	padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
